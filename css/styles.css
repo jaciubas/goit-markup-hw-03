@@ -35,6 +35,12 @@ body {
   color: var(--colorContactFooter);
   text-decoration: none;
 }
+.telMailFooter:hover {
+  color: var(--colorHover);
+}
+.telMailHeader:hover {
+  color: var(--colorHover);
+}
 .telMailFooter:visited {
   text-decoration: none;
 }
@@ -140,6 +146,7 @@ body {
   font-size: 18px;
   line-height: 2em;
   color: rgba(33, 33, 33, 1);
+  border-bottom: solid #eeeeee;
 }
 .descript .desc {
   color: var(--figureColor);
@@ -185,21 +192,26 @@ body {
   line-height: 1.714em;
 }
 .head {
+  display: flex;
+  align-items: center;
   background-color: var(--footerAndHeaderBgC);
-  min-height: 600px;
-  min-width: 1600px;
+  height: 600px;
+  width: 1600px;
   justify-content: center;
+  padding-left: 490px;
+  padding-right: 490px;
+  flex-direction: column;
 }
 .head .top {
   color: #fff;
   font-size: 44px;
   font-weight: 900;
-  position: relative;
-  top: 200px;
-  left: 500px;
-  bottom: 280px;
+  display: flex;
   line-height: 1.363em;
-  max-width: 700px;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 .head .top .topP {
   line-height: 1.363em;
@@ -216,9 +228,7 @@ body {
   color: var(--colorIndexBtn);
   background-color: var(--btnIndexBgC);
   box-shadow: 0px 4px 4px var(--shadowColor);
-  position: relative;
-  top: 200px;
-  left: 675px;
+  cursor: pointer;
   font-family: "Roboto", sans-serif;
 }
 .loremIpsum {
@@ -235,7 +245,7 @@ body {
 }
 .imgIndex {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .mainSection {
   text-align: center;
@@ -244,11 +254,11 @@ body {
   font-weight: 700;
 }
 .imgIndexClass {
-  margin-left: 70px;
+  justify-content: space-around;
 }
 .imgIndexTeam {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .imgIndexTeam .figcap {
   border-radius: 0px 0px 4px 4px;
@@ -257,4 +267,28 @@ body {
   text-align: center;
   font-weight: 500;
   line-height: 1.875em;
+}
+.container {
+  width: 1200px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  width: 1600px;
+}
+.Team {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f5f4fa;
+  margin: 0;
+}
+.section.Team {
+  width: 100%;
+  width: 1600px;
+}
+.header {
+  border-bottom: solid #ececec;
+  width: 1600px;
 }
