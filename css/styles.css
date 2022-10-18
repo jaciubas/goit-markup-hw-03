@@ -51,8 +51,8 @@ body {
 .mailtel {
   display: flex;
   position: relative;
-  left: 700px;
-  bottom: 2.2em;
+  left: 45%;
+  bottom: 2.5em;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.172em;
@@ -69,7 +69,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.02em;
   position: relative;
-  left: 28em;
+  left: 15%;
   top: -2.3em;
   margin-left: 3em;
   line-height: 1.172em;
@@ -78,8 +78,7 @@ body {
   display: inline-flex;
   text-align: center;
   position: relative;
-  left: 9em;
-  top: 0.25em;
+  top: 0.35em;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
@@ -136,7 +135,7 @@ body {
 .footer {
   background-color: var(--footerAndHeaderBgC);
   height: 252px;
-  width: 1600px;
+
   position: relative;
   left: auto;
   right: auto;
@@ -157,7 +156,8 @@ body {
 .img {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-around;
+  padding-left: 0;
 }
 .web-studio-footer {
   font-family: "Raleway", sans-serif;
@@ -196,10 +196,10 @@ body {
   align-items: center;
   background-color: var(--footerAndHeaderBgC);
   height: 600px;
-  width: 1600px;
+
   justify-content: center;
-  padding-left: 490px;
-  padding-right: 490px;
+  padding-left: 280px;
+  padding-right: 280px;
   flex-direction: column;
 }
 .head .top {
@@ -246,6 +246,7 @@ body {
 .imgIndex {
   display: flex;
   justify-content: space-around;
+  padding-left: 0;
 }
 .mainSection {
   text-align: center;
@@ -259,6 +260,7 @@ body {
 .imgIndexTeam {
   display: flex;
   justify-content: space-around;
+  padding-left: 0;
 }
 .imgIndexTeam .figcap {
   border-radius: 0px 0px 4px 4px;
@@ -270,12 +272,12 @@ body {
 }
 .container {
   width: 1200px;
+  margin: 0 auto;
 }
 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  width: 1600px;
 }
 .Team {
   display: flex;
@@ -286,9 +288,11 @@ body {
 }
 .section.Team {
   width: 100%;
-  width: 1600px;
 }
 .header {
   border-bottom: solid #ececec;
-  width: 1600px;
+}
+
+Figure {
+  margin: 0;
 }
