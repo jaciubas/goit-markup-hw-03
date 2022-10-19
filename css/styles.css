@@ -163,7 +163,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   position: relative;
-  left: 215px;
+
   top: 60px;
   font-size: 26px;
 }
@@ -172,7 +172,7 @@ body {
   color: var(--addresColor);
   font-size: 14px;
   position: relative;
-  left: 215px;
+
   top: 111px;
   line-height: 1.714em;
 }
@@ -185,7 +185,7 @@ body {
   font-weight: 400;
   position: relative;
   top: 141px;
-  left: 215px;
+
   bottom: 60px;
   margin: 0%;
   padding: 0%;
@@ -198,8 +198,8 @@ body {
   height: 600px;
 
   justify-content: center;
-  padding-left: 280px;
-  padding-right: 280px;
+  padding-left: 620px;
+  padding-right: 620px;
   flex-direction: column;
 }
 .head .top {
