@@ -198,8 +198,8 @@ body {
   height: 600px;
 
   justify-content: center;
-  padding-left: 620px;
-  padding-right: 620px;
+  padding-left: 280px;
+  padding-right: 280px;
   flex-direction: column;
 }
 .head .top {
