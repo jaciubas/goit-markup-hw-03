@@ -156,7 +156,7 @@ body {
 .img {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-around;
+
   padding-left: 0;
 }
 .web-studio-footer {
@@ -245,7 +245,7 @@ body {
 }
 .imgIndex {
   display: flex;
-  justify-content: space-around;
+  gap: 30px;
   padding-left: 0;
 }
 .mainSection {
@@ -253,6 +253,7 @@ body {
   font-size: 36px;
   line-height: 1.171em;
   font-weight: 700;
+  padding-bottom: 34px;
 }
 .imgIndexClass {
   justify-content: space-around;
